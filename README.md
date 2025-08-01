@@ -71,3 +71,5 @@ Use GitHub Actions, cron, or Task Scheduler to run it hourly or daily.
 
 - Powered by the [MangaDex API](https://api.mangadex.org)
 - Email handled via [Mailgun](https://www.mailgun.com/)
+
+P.S. I tried to do this during my lunch time at work 😂
