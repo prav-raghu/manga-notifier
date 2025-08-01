@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>New Manga Chapters Notification</title>
+  </head>
+  <body>
+    <table style="width: 100%; background-color: #f7f7f7">
+      <thead>
+        <tr>
+          <th style="display: none">Notification Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td align="center">
+            <table
+              style="
+                padding: 20px;
+                border-radius: 8px;
+                background-color: #ffffff;
+                max-width: 600px;
+                width: 100%;
+              "
+            >
+              <thead>
+                <tr>
+                  <th
+                    style="
+                      font-size: 20px;
+                      color: #333;
+                      text-align: left;
+                      padding-bottom: 10px;
+                    "
+                    colspan="1"
+                  >
+                    Latest Manga Chapters:
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    {{CHAPTERS}}
+                    <p style="font-size: 14px; color: #666; margin-top: 30px">
+                      Keep reading, keep dreaming!<br />
+                      🦾🤖 Manga Notifer Bot <br />
+                      You're receiving this update because you asked for manga
+                      release alerts.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
